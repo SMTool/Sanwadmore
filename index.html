@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanwad More — Senior BIM Engineer</title>
+<meta name="description" content="Sanwad More — Senior BIM Engineer in Pune, India. Revit, Dynamo, Revit API & automation specialist with 6+ years across India, USA and UAE projects.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23122c47'/%3E%3Ctext x='50' y='68' font-size='48' font-family='Arial' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3ESM%3C/text%3E%3C/svg%3E">
+<script>try{var _t=localStorage.getItem("sm-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");if(_t==="dark")document.documentElement.setAttribute("data-theme","dark");}catch(e){}</script>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sanwad More — Senior BIM Engineer">
+<meta property="og:description" content="BIM automation specialist — Revit, Dynamo, Revit API. 6+ years delivering clash-free models across India, USA & UAE.">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Sanwad More","jobTitle":"Senior BIM Engineer","email":"mailto:sanwadmore@gmail.com","telephone":"+91 9595737567","address":{"@type":"PostalAddress","addressLocality":"Pune","addressRegion":"Maharashtra","addressCountry":"IN"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Pune University"},"knowsAbout":["Revit","Dynamo","Revit API","Navisworks","Autodesk Construction Cloud","Python","C#","BIM Automation"],"sameAs":["https://in.linkedin.com/in/sanwadmore","https://smtool.github.io/sstotext/"]}
+</script>
+<style>
+:root{
+  --bg:#f5f7fa; --surface:#ffffff; --ink:#16273a; --muted:#57687b; --dim:#8595a6;
+  --line:#e4eaf1; --navy:#122c47; --accent:#1a5fd0; --accent-hi:#2f74e8;
+  --chip:rgba(26,95,208,.07); --shadow:0 10px 34px rgba(18,44,71,.08);
+  --bg2:#eef2f7; --navbg:rgba(255,255,255,.85); --grid:rgba(18,44,71,.032);
+  --radius:16px;
+}
+[data-theme="dark"]{
+  --bg:#0c1420; --bg2:#0f1a29; --surface:#132032; --ink:#e7edf5; --muted:#9cb0c4; --dim:#687c92;
+  --line:#233449; --accent:#4d94ff; --accent-hi:#6ea8ff;
+  --chip:rgba(77,148,255,.14); --shadow:0 14px 42px rgba(0,0,0,.5);
+  --navbg:rgba(12,20,32,.84); --grid:rgba(255,255,255,.045);
+}
+body{transition:background-color .35s ease,color .35s ease}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,"Segoe UI",Inter,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased}
+::selection{background:rgba(26,95,208,.18)}
+a{color:var(--accent)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+/* ---------- nav ---------- */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--navbg);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .25s,box-shadow .25s}
+nav.scrolled{border-color:var(--line);box-shadow:0 6px 24px rgba(18,44,71,.06)}
+.navin{display:flex;align-items:center;height:66px;gap:26px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:800;font-size:17px;letter-spacing:-.2px}
+.brand .mono{width:36px;height:36px;border-radius:10px;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:14px;font-weight:800;letter-spacing:.5px}
+.brand span b{color:var(--accent)}
+.nlinks{display:flex;gap:24px;margin-left:auto}
+.nlinks a{text-decoration:none;color:var(--muted);font-size:14px;font-weight:600;padding:4px 2px;border-bottom:2px solid transparent;transition:all .2s}
+.nlinks a:hover{color:var(--ink)}
+.nlinks a.active{color:var(--accent);border-bottom-color:var(--accent)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-weight:700;font-size:14px;padding:10px 20px;border-radius:10px;text-decoration:none;border:none;cursor:pointer;font-family:inherit;transition:background .2s,transform .15s,box-shadow .2s}
+.btn:hover{background:#1b63da;transform:translateY(-1px);box-shadow:0 8px 20px rgba(26,95,208,.28)}
+.btn.line{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn.line:hover{border-color:var(--accent);color:var(--accent);box-shadow:none;background:transparent}
+.btn.sm{padding:8px 16px;font-size:13px}
+.burger{display:none;margin-left:auto;background:none;border:none;font-size:24px;color:var(--ink);cursor:pointer;line-height:1}
+.tbtn{flex-shrink:0;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:16px;cursor:pointer;display:grid;place-items:center;transition:transform .25s,border-color .2s;line-height:1;margin-left:auto}
+@media(max-width:920px){.tbtn{margin-left:0}.burger{margin-left:auto}}
+.tbtn:hover{transform:rotate(30deg) scale(1.08);border-color:var(--accent)}
+
+/* ---------- hero ---------- */
+.hero{padding:158px 0 84px;position:relative;overflow:hidden;background:
+ radial-gradient(700px 340px at 88% -10%,rgba(26,95,208,.09),transparent),
+ linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+ background-size:auto,46px 46px,46px 46px;background-color:var(--bg)}
+.herogrid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
+.kick{display:inline-flex;align-items:center;gap:9px;font-size:12.5px;font-weight:800;letter-spacing:2.2px;color:var(--accent);text-transform:uppercase;margin-bottom:18px}
+.kick::before{content:"";width:34px;height:2px;background:var(--accent);display:inline-block}
+h1{font-size:clamp(38px,5vw,60px);line-height:1.05;letter-spacing:-1.8px;font-weight:850}
+h1 em{font-style:normal;color:var(--accent)}
+.tag{font-size:18.5px;color:var(--muted);margin:20px 0 26px;max-width:560px}
+.tag b{color:var(--ink)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 22px;color:var(--muted);font-size:14.5px;font-weight:600;margin-bottom:30px}
+.meta span{display:inline-flex;align-items:center;gap:7px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.avatarcard{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:38px 32px;text-align:center;position:relative}
+.mono-big{position:relative;overflow:hidden;width:118px;height:118px;border-radius:50%;margin:0 auto 18px;background:linear-gradient(145deg,var(--navy),#1d4568);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:850;letter-spacing:1px;box-shadow:0 14px 34px rgba(18,44,71,.28)}
+.mono-big img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.avatarcard h3{font-size:19px;letter-spacing:-.3px}
+.avatarcard .role{color:var(--accent);font-weight:700;font-size:13.5px;text-transform:uppercase;letter-spacing:1.6px;margin:5px 0 16px}
+.badges{display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+.badge{background:var(--chip);color:var(--accent);font-size:12px;font-weight:700;padding:5px 12px;border-radius:99px;border:1px solid rgba(26,95,208,.16)}
+
+/* ---------- stats ---------- */
+.stats{margin-top:64px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px 18px;text-align:center;transition:transform .2s,box-shadow .2s}
+.stat:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.stat .v{font-size:32px;font-weight:850;letter-spacing:-1px;color:var(--ink)}
+.stat .l{color:var(--muted);font-size:13px;font-weight:600;margin-top:3px}
+
+/* ---------- sections ---------- */
+section{padding:86px 0}
+.shead{margin-bottom:44px}
+.slabel{font-size:12px;font-weight:800;letter-spacing:2.4px;color:var(--accent);text-transform:uppercase;display:block;margin-bottom:10px}
+h2{font-size:clamp(26px,3.2vw,36px);letter-spacing:-1px;font-weight:820;line-height:1.15}
+.sub{color:var(--muted);margin-top:12px;max-width:640px;font-size:16px}
+.alt{background:var(--bg2)}
+
+/* about */
+.aboutgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start}
+.abouttext p{color:var(--muted);font-size:16px;margin-bottom:16px}
+.abouttext p b{color:var(--ink)}
+.hl{list-style:none;display:grid;gap:10px;margin-top:22px}
+.hl li{display:flex;gap:11px;align-items:flex-start;font-size:15px;color:var(--muted)}
+.hl li::before{content:"✓";color:var(--accent);font-weight:900;margin-top:1px}
+.hl li b{color:var(--ink)}
+.infocard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:28px}
+.infocard h3{font-size:16px;margin-bottom:16px;letter-spacing:-.2px}
+.kv{display:grid;gap:13px}
+.kv .row{display:flex;justify-content:space-between;gap:14px;font-size:14px;padding-bottom:12px;border-bottom:1px dashed var(--line)}
+.kv .row:last-child{border:none;padding-bottom:0}
+.kv .k{color:var(--dim);font-weight:600}
+.kv .val{font-weight:700;text-align:right;color:var(--ink)}
+
+/* projects */
+.pcards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;transition:transform .22s,box-shadow .22s,border-color .22s;display:flex;flex-direction:column}
+.pcard:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:rgba(26,95,208,.35)}
+.pcard .ic{width:48px;height:48px;border-radius:13px;background:var(--chip);display:grid;place-items:center;font-size:23px;margin-bottom:16px}
+.pcard h3{font-size:17.5px;letter-spacing:-.3px;margin-bottom:9px}
+.pcard p{color:var(--muted);font-size:14.3px;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+.tagc{font-size:11.5px;font-weight:700;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:4px 10px;border-radius:99px}
+.plink{display:inline-flex;align-items:center;gap:6px;margin-top:18px;font-weight:700;font-size:13.5px;color:var(--accent);text-decoration:none}
+.plink:hover{text-decoration:underline}
+.wip{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:1px;background:#fff4dd;color:#9a6b00;border:1px solid #f2dfae;padding:2px 9px;border-radius:99px;margin-left:8px;vertical-align:2px}
+
+/* portfolio */
+.pfilter{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:14px}
+.fbtn{background:var(--surface);border:1px solid var(--line);color:var(--muted);font-weight:700;font-size:13px;padding:8px 16px;border-radius:99px;cursor:pointer;font-family:inherit;transition:all .18s}
+.fbtn:hover{border-color:var(--accent);color:var(--accent)}
+.fbtn.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.pcount{color:var(--dim);font-size:13px;margin-bottom:22px;font-weight:600}
+.pfgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.pj{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:9px;transition:transform .2s,box-shadow .2s,border-color .2s}
+.pj:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:rgba(26,95,208,.35)}
+.pj.hide{display:none}
+.pjtop{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.pj .cat{font-size:10.5px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase;color:var(--accent);background:var(--chip);border:1px solid rgba(26,95,208,.15);padding:3px 11px;border-radius:99px}
+.pj .em{font-size:23px;line-height:1}
+.pj h3{font-size:16.5px;letter-spacing:-.25px}
+.pj p{color:var(--muted);font-size:13.8px;flex:1}
+.pjfoot{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.mini{font-size:11.5px;font-weight:700;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:3px 10px;border-radius:99px}
+
+/* card hover hint */
+.pfgrid .pj{position:relative;cursor:pointer}
+.pj:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.viewhint{position:absolute;left:0;right:0;bottom:0;padding:34px 16px 11px;border-radius:0 0 var(--radius) var(--radius);background:linear-gradient(transparent,rgba(18,44,71,.9));color:#fff;font-size:11.5px;font-weight:800;letter-spacing:1px;text-align:right;opacity:0;transition:opacity .25s;pointer-events:none}
+.pfgrid .pj:hover .viewhint,.pfgrid .pj:focus-visible .viewhint{opacity:1}
+
+/* case-study modal */
+#modal{position:fixed;inset:0;z-index:600;display:none;align-items:center;justify-content:center;padding:22px}
+#modal.open{display:flex}
+.mback{position:absolute;inset:0;background:rgba(9,19,31,.68);backdrop-filter:blur(6px)}
+.mpanel{position:relative;background:var(--surface);border-radius:20px;max-width:900px;width:100%;max-height:92vh;overflow-y:auto;box-shadow:0 40px 110px rgba(0,0,0,.5);animation:mup .38s cubic-bezier(.2,1,.3,1)}
+@keyframes mup{from{transform:translateY(36px) scale(.97);opacity:0}}
+.mclose{position:absolute;top:14px;right:14px;z-index:5;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:15px;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.25);transition:transform .2s}
+.mclose:hover{transform:rotate(90deg)}
+.mmedia{aspect-ratio:16/9;background:linear-gradient(135deg,#122c47,#24507e);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.mmedia img{width:100%;height:100%;object-fit:cover}
+.phint{color:rgba(255,255,255,.88);text-align:center;font-family:ui-monospace,Consolas,monospace;font-size:13px;padding:24px;line-height:1.7}
+.phint b{display:block;font-size:15.5px;margin-bottom:6px;font-family:inherit}
+.phint code{background:rgba(255,255,255,.14);padding:2px 8px;border-radius:6px}
+.mthumbs{display:none;gap:8px;padding:12px 26px 0}
+.mthumbs.has{display:flex}
+.mthumbs button{width:76px;height:50px;border-radius:8px;border:2px solid var(--line);padding:0;background:var(--bg);cursor:pointer;overflow:hidden;transition:border-color .15s}
+.mthumbs button.on{border-color:var(--accent)}
+.mthumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.mbody{padding:24px 28px 30px}
+.mheadrow{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.mtag{font-size:10.5px;font-weight:800;letter-spacing:1.1px;text-transform:uppercase;color:var(--accent);background:var(--chip);border:1px solid rgba(26,95,208,.15);padding:3px 11px;border-radius:99px}
+.mfirm{color:var(--dim);font-size:13px;font-weight:700}
+.mbody h3{font-size:23px;letter-spacing:-.5px;margin-top:12px}
+.mdesc{color:var(--muted);font-size:14.8px;margin-top:10px}
+.mstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:11px;margin-top:20px}
+.mstat{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.mstat .k{font-size:10.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--dim)}
+.mstat .v{font-weight:700;font-size:14px;margin-top:3px}
+.msec{margin-top:24px}
+.msec h4{font-size:12px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.mch{list-style:none;display:grid;gap:8px}
+.mch li{position:relative;padding-left:20px;color:var(--muted);font-size:14.4px}
+.mch li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;border-radius:2px;background:var(--accent);opacity:.55;transform:rotate(45deg)}
+.mtools{display:flex;flex-wrap:wrap;gap:7px}
+.mtool{font-size:11.5px;font-weight:700;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:4px 10px;border-radius:99px}
+body.locked{overflow:hidden}
+@media(max-width:640px){.mthumbs{padding:10px 18px 0}.mbody{padding:20px 18px 24px}}
+
+/* timeline */
+.timeline{position:relative;margin-left:10px}
+.timeline::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--accent),var(--line))}
+.titem{position:relative;padding:0 0 42px 36px}
+.titem:last-child{padding-bottom:6px}
+.titem::before{content:"";position:absolute;left:-7px;top:5px;width:16px;height:16px;border-radius:50%;background:var(--surface);border:3.5px solid var(--accent);box-shadow:0 0 0 4px rgba(26,95,208,.12)}
+.titem.now::before{background:var(--accent);box-shadow:0 0 0 4px rgba(26,95,208,.18)}
+.trow{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:4px}
+.trow h3{font-size:19px;letter-spacing:-.4px}
+.trow .co{color:var(--accent);font-weight:750;font-size:16px}
+.trow .yrs{margin-left:auto;font-family:ui-monospace,Consolas,monospace;font-size:12.5px;font-weight:700;color:var(--muted);background:var(--bg);border:1px solid var(--line);padding:3px 11px;border-radius:99px;white-space:nowrap}
+.trole{color:var(--dim);font-size:13.5px;font-weight:700;text-transform:uppercase;letter-spacing:1.1px;margin-bottom:12px}
+.titem ul{list-style:none;display:grid;gap:7px}
+.titem ul li{position:relative;padding-left:20px;color:var(--muted);font-size:14.6px}
+.titem ul li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;border-radius:2px;background:var(--accent);opacity:.55;transform:rotate(45deg)}
+
+/* skills */
+.skillcols{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.skbox{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+.skbox h3{font-size:15px;letter-spacing:.4px;text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;gap:9px}
+.chips{display:flex;flex-wrap:wrap;gap:9px}
+.chip{background:var(--chip);border:1px solid rgba(26,95,208,.15);color:var(--ink);font-weight:650;font-size:13.5px;padding:8px 15px;border-radius:99px;transition:all .18s;cursor:default}
+.chip:hover{background:var(--accent);color:#fff;border-color:var(--accent);transform:translateY(-2px)}
+
+/* certs + edu */
+.certgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.cert{display:flex;gap:13px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:16px 18px;font-size:14.5px;font-weight:650;transition:border-color .2s,transform .2s}
+.cert:hover{border-color:rgba(26,95,208,.4);transform:translateX(4px)}
+.cert .ci{color:var(--accent);font-size:18px;line-height:1.3}
+.educard{margin-top:22px;background:linear-gradient(120deg,var(--navy),#1c4066);color:#fff;border-radius:var(--radius);padding:30px 32px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+.educard h3{font-size:21px;letter-spacing:-.3px}
+.educard p{color:#b9c9dc;font-size:14.5px;margin-top:4px}
+.educard .yr{font-family:ui-monospace,Consolas,monospace;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:8px 16px;border-radius:99px;font-weight:700;font-size:14px}
+
+/* beyond */
+.bgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.bcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;text-align:center}
+.bcard .bi{font-size:30px;margin-bottom:10px}
+.bcard h3{font-size:16px;margin-bottom:7px}
+.bcard p{color:var(--muted);font-size:13.8px}
+.extra{margin-top:26px;text-align:center;color:var(--dim);font-size:14px}
+
+/* contact / footer */
+.contact{background:var(--navy);color:#fff;padding:96px 0;text-align:center;position:relative;overflow:hidden}
+.contact::before{content:"";position:absolute;inset:0;background:radial-gradient(560px 260px at 50% 0%,rgba(47,116,232,.28),transparent)}
+.contact .slabel{color:#8fb4f5}
+.contact h2{color:#fff;max-width:620px;margin-inline:auto}
+.contact .sub{color:#b9c9dc;margin-inline:auto}
+.cbtns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:36px;position:relative}
+.btn.inv{background:#fff;color:var(--navy)}
+.btn.inv:hover{background:#eef4ff;box-shadow:0 10px 26px rgba(0,0,0,.25)}
+.btn.oct{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
+.btn.oct:hover{border-color:#fff;background:rgba(255,255,255,.08);box-shadow:none}
+footer{background:#0d2136;color:#7e93ab;padding:26px 0;font-size:13.5px;text-align:center}
+footer a{color:#aac4e4}
+
+/* top btn */
+#toTop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:12px;background:var(--navy);color:#fff;border:none;font-size:19px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .25s,transform .2s;z-index:90}
+#toTop.show{opacity:1;pointer-events:auto}
+#toTop:hover{transform:translateY(-3px)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .65s ease,transform .65s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ---- polish layer: typewriter, marquee, timeline fill, ripple, scrollbar ---- */
+.type-wrap{min-height:32px;margin-top:14px;font-size:clamp(17px,2vw,21px);font-weight:700;color:var(--muted)}
+#typeTarget{color:var(--accent)}
+.tw-caret{display:inline-block;width:3px;height:1.05em;background:var(--accent);vertical-align:-0.16em;margin-left:3px;border-radius:2px;animation:twblink 1s steps(1) infinite}
+@keyframes twblink{50%{opacity:0}}
+
+.marquee{border-block:1px solid var(--line);background:var(--surface);overflow:hidden;padding:15px 0}
+.marquee-track{display:flex;width:max-content;animation:mq 30s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee-half{display:flex;align-items:center;white-space:nowrap;font-weight:750;font-size:14px;color:var(--dim);letter-spacing:.5px}
+.marquee-half span{display:inline-flex;align-items:center}
+.marquee-half span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.45;margin:0 19px}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+.fillline{position:absolute;left:0;top:6px;width:2px;height:0;background:linear-gradient(180deg,var(--accent),#7db2ff);border-radius:2px;z-index:1}
+.titem.lit::before{background:var(--accent);box-shadow:0 0 0 5px rgba(77,148,255,.22)}
+
+.btn{position:relative;overflow:hidden}
+.ripple{position:absolute;border-radius:50%;background:var(--ink);opacity:.22;transform:scale(0);animation:rip .6s ease-out forwards;pointer-events:none}
+@keyframes rip{to{transform:scale(3.4);opacity:0}}
+
+html{scrollbar-width:thin;scrollbar-color:#a9bad0 transparent}
+::-webkit-scrollbar{width:11px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#a9bad0;border-radius:99px;border:3px solid var(--bg)}
+[data-theme="dark"] ::-webkit-scrollbar-thumb{background:#2b3d55;border-color:var(--bg)}
+
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+section[id],header[id]{scroll-margin-top:86px}
+
+::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+::view-transition-new(root){animation:vtwipe .55s ease-in-out}
+@keyframes vtwipe{from{clip-path:circle(0% at calc(100% - 62px) 42px)}to{clip-path:circle(150% at calc(100% - 62px) 42px)}}
+
+@media(prefers-reduced-motion:reduce){
+  .marquee-track{animation:none}
+  .tw-caret{animation:none}
+}
+
+/* ---- cursor aura + blueprint hero scene ---- */
+#aura{position:fixed;left:0;top:0;width:440px;height:440px;margin:-220px 0 0 -220px;border-radius:50%;pointer-events:none;z-index:1;background:radial-gradient(circle,rgba(26,95,208,.09),rgba(26,95,208,.03) 45%,transparent 70%);opacity:0;transition:opacity .5s}
+[data-theme="dark"] #aura{background:radial-gradient(circle,rgba(99,158,255,.13),rgba(99,158,255,.04) 45%,transparent 70%)}
+#aura.on{opacity:1}
+
+.hero-scene{position:absolute;inset:0;overflow:hidden;pointer-events:none;color:rgba(18,44,71,.16);z-index:0}
+[data-theme="dark"] .hero-scene{color:rgba(152,182,220,.17)}
+.hero .wrap{position:relative;z-index:1}
+.bp{position:absolute;will-change:transform}
+.bp *{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.bp text{fill:currentColor;stroke:none;font-family:ui-monospace,Consolas,monospace;font-size:12px;letter-spacing:1px}
+.bp .f{fill:var(--accent);stroke:var(--accent);stroke-width:1}
+.bp .dsh{stroke-dasharray:5 7}
+.bp .thin{stroke-width:1.3}
+.bp .pulse{animation:nodepulse 3.2s ease-in-out infinite}
+@keyframes nodepulse{50%{opacity:.3}}
+@media(max-width:920px){.hero-scene{display:none}}
+
+/* ---- services ---- */
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.svccta{margin-top:34px;text-align:center;background:var(--surface);border:1px dashed rgba(26,95,208,.45);border-radius:var(--radius);padding:26px 22px;color:var(--muted);font-size:15px}
+.svccta b{color:var(--ink)}
+.svccta .btn{margin-left:12px}
+@media(max-width:560px){.svccta .btn{display:inline-flex;margin:12px 0 0}}
+
+/* mobile menu */
+.mmenu{display:none;flex-direction:column;background:var(--surface);border-top:1px solid var(--line);padding:10px 24px 18px;gap:4px}
+.mmenu.open{display:flex}
+.mmenu a{text-decoration:none;color:var(--ink);font-weight:650;font-size:15px;padding:11px 4px;border-bottom:1px solid var(--line)}
+
+@media(max-width:920px){
+  .herogrid,.aboutgrid,.skillcols{grid-template-columns:1fr}
+  .pcards,.stats,.bgrid{grid-template-columns:repeat(2,1fr)}
+  .nlinks{display:none}
+  .burger{display:block}
+  .hero{padding-top:130px}
+  .avatarcard{order:-1;max-width:420px;margin-inline:auto;width:100%}
+  .trow .yrs{margin-left:0}
+}
+@media(max-width:560px){
+  .pcards,.stats,.bgrid{grid-template-columns:1fr}
+  section{padding:66px 0}
+}
+@media print{
+  nav,#toTop,.burger,.mmenu,.cbtns,.ctas{display:none!important}
+  body{background:#fff}
+  section{padding:26px 0;break-inside:avoid}
+  .hero{padding:40px 0 20px}
+  .contact{background:#fff;color:var(--ink);padding:30px 0}
+  .contact h2{color:var(--ink)}
+  .educard{background:var(--navy)}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav"><div class="wrap navin">
+  <a class="brand" href="#top"><span class="mono">SM</span><span>Sanwad<b>More</b></span></a>
+  <div class="nlinks" id="nlinks">
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#portfolio">Portfolio</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#certs">Certifications</a><a href="#services">Services</a><a href="#contact">Contact</a>
+  </div>
+  <button class="tbtn" id="themeBtn" aria-label="Toggle light/dark theme">🌙</button><button class="btn sm" style="margin-left:14px" onclick="location.href='Sanwad%20More%20Resume%202026.pdf'">Resume ⬇</button>
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+</div>
+<div class="mmenu" id="mmenu">
+  <a href="#about">About</a><a href="#projects">Projects</a><a href="#portfolio">Portfolio</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#certs">Certifications</a><a href="#services">Services</a><a href="#contact">Contact</a>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="hero-scene" aria-hidden="true">
+
+    <svg class="bp" id="bpTower" viewBox="0 0 360 460" style="right:-24px;bottom:-30px;width:min(350px,36vw)">
+      <path d="M76,340 L180,392 L284,340"/>
+      <path d="M76,340 L76,152 M180,392 L180,202 M284,340 L284,202"/>
+      <path d="M76,152 L180,202 L284,202"/>
+      <path class="dsh" d="M76,152 L180,102 L284,202"/>
+      <path class="dsh" d="M76,340 L180,288 L284,340"/>
+      <path class="dsh" d="M180,288 L180,102"/>
+      <path d="M76,293 L180,345 L284,293"/>
+      <path d="M76,245 L180,297 L284,245"/>
+      <path d="M76,198 L180,250 L284,198"/>
+      <path d="M204,378 L228,366 L228,340 L204,352 Z"/>
+      <path d="M180,102 L180,56"/>
+      <circle class="f pulse" cx="180" cy="50" r="4.5"/>
+      <path d="M76,422 v16 M284,422 v16 M76,430 L284,430"/>
+      <text x="180" y="420" text-anchor="middle">24.80 m</text>
+      <path d="M284,245 L310,231 L356,231"/>
+      <text x="356" y="225" text-anchor="end" font-size="10">LVL +12.400</text>
+    </svg>
+
+    <svg class="bp" id="bpCrane" viewBox="0 0 240 470" style="left:-14px;top:30px;width:min(230px,24vw)">
+      <path d="M52,432 L52,96 M68,432 L68,96"/>
+      <path d="M52,428 L68,428 M52,396 L68,396 M52,364 L68,364 M52,332 L68,332 M52,300 L68,300 M52,268 L68,268 M52,236 L68,236 M52,204 L68,204 M52,172 L68,172 M52,140 L68,140 M52,108 L68,108"/>
+      <path class="thin" d="M52,428 L68,396 M52,396 L68,364 M52,364 L68,332 M52,332 L68,300 M52,300 L68,268 M52,268 L68,236 M52,236 L68,204 M52,204 L68,172 M52,172 L68,140 M52,140 L68,108"/>
+      <path d="M34,432 L86,432 M28,444 L44,432 M52,444 L68,432 M76,444 L92,432"/>
+      <rect x="44" y="76" width="32" height="22"/>
+      <path d="M76,80 L218,102 M76,98 L218,120"/>
+      <path class="thin" d="M100,85 L100,101 M124,89 L124,105 M148,93 L148,109 M172,97 L172,113 M196,101 L196,117"/>
+      <path d="M44,82 L8,76"/>
+      <rect x="2" y="72" width="14" height="18"/>
+      <path d="M96,46 L218,102 M96,46 L8,76 M96,46 L60,76"/>
+      <path d="M182,111 L194,113"/>
+      <path d="M188,113 L188,196"/>
+      <path class="thin" d="M188,196 L176,214 M188,196 L200,214"/>
+      <path d="M166,222 L210,230 M166,232 L210,240 M188,222 L188,232"/>
+      <circle class="f pulse" cx="188" cy="196" r="3.5"/>
+    </svg>
+
+    <svg class="bp" id="bpNodes" viewBox="0 0 300 200" style="left:2%;bottom:2%;width:min(280px,28vw)">
+      <path d="M8,158 H64 L92,130 H146"/>
+      <path d="M8,42 H84 L112,70 V114"/>
+      <path d="M112,70 H168 L194,96"/>
+      <path d="M292,24 H238 L212,50"/>
+      <path class="thin" d="M194,96 L212,50"/>
+      <circle class="f" cx="146" cy="130" r="4"/>
+      <circle class="f pulse" cx="112" cy="114" r="4"/>
+      <circle cx="92" cy="130" r="3"/>
+      <circle class="f" cx="212" cy="50" r="4"/>
+      <circle cx="168" cy="70" r="3"/>
+      <rect x="80" y="38" width="8" height="8" transform="rotate(45 84 42)"/>
+      <rect x="234" y="20" width="8" height="8" transform="rotate(45 238 24)"/>
+      <path class="thin" d="M28,92 h10 M33,87 v10 M256,150 h10 M261,145 v10"/>
+    </svg>
+
+  </div>
+  <div class="wrap">
+    <div class="herogrid">
+      <div>
+        <span class="kick">Senior BIM Engineer</span>
+        <h1>Building smarter.<br>Automating the <em>rest.</em></h1>
+        <div class="type-wrap" aria-hidden="true"><span id="typeTarget"></span><span class="tw-caret"></span></div>
+        <p class="tag">I'm <b>Sanwad More</b> — a civil engineer turned BIM specialist with <b>6+ years</b> turning complex projects into coordinated, clash-free models… and then writing scripts so nobody has to model them twice.</p>
+        <div class="meta">
+          <span>📍 Pune, Maharashtra, India</span>
+          <span>💼 Open to collaboration</span>
+          <span>🌐 India · USA · UAE projects</span>
+        </div>
+        <div class="ctas">
+          <a class="btn" href="mailto:sanwadmore@gmail.com">✉ Email Me</a>
+          <a class="btn line" href="https://in.linkedin.com/in/sanwadmore" target="_blank" rel="noopener">in LinkedIn</a>
+          <a class="btn line" href="tel:+919595737567">📞 +91 95957 37567</a>
+        </div>
+      </div>
+      <div class="avatarcard">
+        <div class="mono-big">SM<img id="hs" alt="Sanwad More"></div>
+        <h3>Sanwad More</h3>
+        <div class="role">Sr. BIM Engineer · Automation</div>
+        <div class="badges">
+          <span class="badge">Revit</span><span class="badge">Dynamo</span><span class="badge">Revit API</span>
+          <span class="badge">Navisworks</span><span class="badge">ACC / BIM 360</span><span class="badge">Python</span><span class="badge">C#</span>
+        </div>
+      </div>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="v">6+</div><div class="l">Years in BIM &amp; Civil</div></div>
+      <div class="stat"><div class="v">20+</div><div class="l">Automation Scripts Built</div></div>
+      <div class="stat"><div class="v">3</div><div class="l">Regions — IN · US · UAE</div></div>
+      <div class="stat"><div class="v">2</div><div class="l">In-house Tools Shipped</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="mqTrack">
+  <div class="marquee-half">
+    <span>Revit</span><span>Dynamo</span><span>Revit API</span><span>Navisworks</span><span>ACC / BIM 360</span>
+    <span>AutoCAD</span><span>Python</span><span>C#</span><span>Enscape</span><span>Lumion</span>
+    <span>Family Creation</span><span>Clash Coordination</span>
+  </div>
+</div></div>
+
+<section id="about" class="alt"><div class="wrap">
+  <div class="shead reveal">
+    <span class="slabel">// about</span>
+    <h2>Engineer by degree, automator by instinct</h2>
+  </div>
+  <div class="aboutgrid">
+    <div class="abouttext reveal">
+      <p>I'm a results-oriented BIM Engineer with over six years across civil engineering and Building Information Modeling — from site supervision early in my career to leading modeling and automation for international projects today.</p>
+      <p>My sweet spot is where <b>modeling meets code</b>: visualization and project execution in Revit, AutoCAD, Navisworks, Enscape and Autodesk Construction Cloud, supercharged by <b>Dynamo, Python and the Revit API</b>. I've developed 20+ custom scripts that optimize modeling, documentation and QA/QC workflows — cutting manual errors and compressing delivery timelines.</p>
+      <p>Comfortable working independently or leading teams, with hands-on experience in cross-disciplinary coordination and direct client communication.</p>
+      <ul class="hl">
+        <li><b>Built SMTOOL</b> — a custom Revit plugin used in production workflows</li>
+        <li><b>Cross-discipline coordination</b> — architecture, structure &amp; MEP alignment</li>
+        <li><b>Lumber &amp; LGS expertise</b> — schematic through shop-drawing stages</li>
+        <li><b>Standards champion</b> — templates, families &amp; BIM workflows that scale</li>
+      </ul>
+    </div>
+    <div class="infocard reveal">
+      <h3>Quick Facts</h3>
+      <div class="kv">
+        <div class="row"><span class="k">Current Role</span><span class="val">Sr. BIM Engineer @ Duncan and Ross</span></div>
+        <div class="row"><span class="k">Experience</span><span class="val">2016 → Present</span></div>
+        <div class="row"><span class="k">Specialty</span><span class="val">BIM Automation &amp; Coordination</span></div>
+        <div class="row"><span class="k">Degree</span><span class="val">B.E. Civil Engineering</span></div>
+        <div class="row"><span class="k">University</span><span class="val">Pune University · 2012–2016</span></div>
+        <div class="row"><span class="k">Location</span><span class="val">Pune, Maharashtra, IN</span></div>
+        <div class="row"><span class="k">Languages</span><span class="val">English · Marathi · Hindi</span></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <div class="shead reveal center" style="text-align:center">
+    <span class="slabel">// things i've built</span>
+    <h2>Signature projects &amp; tools</h2>
+    <p class="sub" style="margin-inline:auto">Not just using software — improving it.</p>
+  </div>
+  <div class="pcards">
+    <div class="pcard reveal">
+      <div class="ic">🔌</div>
+      <h3>SMTOOL Plugin</h3>
+      <p>A custom Revit plugin that extracts Element IDs of linked-model elements directly from the host model — eliminating the Navisworks round-trip entirely and streamlining multi-model coordination.</p>
+      <div class="tags"><span class="tagc">Revit API</span><span class="tagc">Add-in Development</span><span class="tagc">Coordination</span></div>
+      <span class="plink">In production use →</span>
+    </div>
+    <div class="pcard reveal">
+      <div class="ic">🖨️</div>
+      <h3>SSToText — OCR Web Tool</h3>
+      <p>A lightweight browser tool that pulls text out of flattened PDFs and images — just paste a screenshot with Ctrl&nbsp;+&nbsp;V. Optional capitalization, zero friction, built for documentation speed.</p>
+      <div class="tags"><span class="tagc">Web App</span><span class="tagc">OCR</span><span class="tagc">UX Design</span></div>
+      <a class="plink" href="https://smtool.github.io/sstotext/" target="_blank" rel="noopener">Try it live ↗</a>
+    </div>
+    <div class="pcard reveal">
+      <div class="ic">⚙️</div>
+      <h3>Dynamo Automation Library <span class="wip">20+ SCRIPTS</span></h3>
+      <p>A growing suite of custom Dynamo scripts automating repetitive modeling, documentation and QA/QC tasks — significantly reducing manual errors and accelerating project delivery.</p>
+      <div class="tags"><span class="tagc">Dynamo</span><span class="tagc">Python</span><span class="tagc">QA / QC</span></div>
+      <span class="plink">Deployed across projects →</span>
+    </div>
+  </div>
+</div></section>
+
+<section id="portfolio"><div class="wrap">
+  <div class="shead reveal" style="text-align:center">
+    <span class="slabel">// project portfolio</span>
+    <h2>Ten kinds of projects across my journey</h2>
+    <p class="sub" style="margin-inline:auto">From Indian job sites to US factories and UAE towers — filter by the type you care about.</p>
+  </div>
+  <div class="pfilter reveal" id="pfilters">
+    <button class="fbtn on" data-f="all">All · 10</button>
+    <button class="fbtn" data-f="residential">Residential</button>
+    <button class="fbtn" data-f="commercial">Commercial</button>
+    <button class="fbtn" data-f="industrial">Industrial</button>
+    <button class="fbtn" data-f="offsite">Off-Site · Timber/LGS</button>
+    <button class="fbtn" data-f="tools">Tools &amp; Automation</button>
+  </div>
+  <div class="pfgrid reveal" id="pfgrid">
+
+    <article class="pj reveal" data-cat="residential">
+      <div class="pjtop"><span class="cat">Residential</span><span class="em">🏘️</span></div>
+      <h3>Residential Township Development</h3>
+      <p>Coordinated 3D models and custom Revit families for villa clusters across India — the foundation of my reusable family library.</p>
+      <div class="pjfoot"><span class="mini">Matrix Structures</span><span class="mini">2020–21</span><span class="mini">Revit · Families</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="residential">
+      <div class="pjtop"><span class="cat">Residential</span><span class="em">🏢</span></div>
+      <h3>Residential High-Rise Tower</h3>
+      <p>End-to-end delivery — modeling, documentation and coordination — with QC checks against client standards before every issue.</p>
+      <div class="pjfoot"><span class="mini">Indovance</span><span class="mini">2021–22</span><span class="mini">Revit · AutoCAD · QA/QC</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="industrial">
+      <div class="pjtop"><span class="cat">Industrial</span><span class="em">🏭</span></div>
+      <h3>Industrial Plant &amp; Warehouse Facility</h3>
+      <p>Structural and MEP coordination with Navisworks clash detection for industrial facilities — delivered clash-free, first time.</p>
+      <div class="pjfoot"><span class="mini">Matrix Structures</span><span class="mini">2020–21</span><span class="mini">Revit · Navisworks</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="offsite">
+      <div class="pjtop"><span class="cat">Off-Site · Timber</span><span class="em">🏡</span></div>
+      <h3>Timber Modular Housing — USA</h3>
+      <p>Lumber modeling through schematic → detailed design → shop drawings for a US off-site builder, aligned to factory production lines.</p>
+      <div class="pjfoot"><span class="mini">Livio Building</span><span class="mini">2022–24</span><span class="mini">Revit · Shop Drawings</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="offsite">
+      <div class="pjtop"><span class="cat">Off-Site · LGS</span><span class="em">🧱</span></div>
+      <h3>Light-Gauge Steel Prefab Kits</h3>
+      <p>LGS panelized building kits modeled to real manufacturing constraints — refined after on-site factory visits so nothing clashed with reality.</p>
+      <div class="pjfoot"><span class="mini">Livio Building</span><span class="mini">2022–24</span><span class="mini">Revit · LGS · Fabrication</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="commercial">
+      <div class="pjtop"><span class="cat">Commercial · UAE</span><span class="em">🏙️</span></div>
+      <h3>Commercial Office Fit-Out</h3>
+      <p>Interior fit-out modeling and family creation to strict UAE client BIM standards, tracked and shared via ACC / BIM 360.</p>
+      <div class="pjfoot"><span class="mini">Duncan &amp; Ross</span><span class="mini">2024—</span><span class="mini">Revit · ACC/BIM360</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="commercial">
+      <div class="pjtop"><span class="cat">Commercial · USA</span><span class="em">🌆</span></div>
+      <h3>Mixed-Use Development — USA</h3>
+      <p>Multi-discipline coordination with template governance, standards compliance and stakeholder progress presentations.</p>
+      <div class="pjfoot"><span class="mini">Duncan &amp; Ross</span><span class="mini">2024—</span><span class="mini">Revit · Templates · Coordination</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="tools">
+      <div class="pjtop"><span class="cat">Tools &amp; Automation</span><span class="em">⚙️</span></div>
+      <h3>Dynamo Automation Library</h3>
+      <p>20+ custom Dynamo scripts automating modeling, documentation and QA/QC routines — fewer manual errors, faster delivery.</p>
+      <div class="pjfoot"><span class="mini">All firms</span><span class="mini">Ongoing</span><span class="mini">Dynamo · Python</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="tools">
+      <div class="pjtop"><span class="cat">Tools &amp; Automation</span><span class="em">🔌</span></div>
+      <h3>SMTOOL Plugin for Revit</h3>
+      <p>Custom add-in extracting linked-model Element IDs directly from the host model — no more Navisworks round-trips.</p>
+      <div class="pjfoot"><span class="mini">Personal R&amp;D</span><span class="mini">In production use</span><span class="mini">Revit API · C#</span></div>
+    </article>
+
+    <article class="pj reveal" data-cat="tools">
+      <div class="pjtop"><span class="cat">Tools &amp; Automation</span><span class="em">🖨️</span></div>
+      <h3>SSToText — OCR Web Tool</h3>
+      <p>Paste any screenshot with Ctrl+V and pull clean text out of flattened PDFs and images. Free, live, and built for speed.</p>
+      <div class="pjfoot"><span class="mini">Open source</span><span class="mini">Live ↗ smtool.github.io</span><span class="mini">Web · OCR</span></div>
+    </article>
+
+  </div>
+</div></section>
+
+<section id="experience" class="alt"><div class="wrap">
+  <div class="shead reveal">
+    <span class="slabel">// career path</span>
+    <h2>Ten years, five roles, one obsession: efficiency</h2>
+  </div>
+  <div class="timeline"><div class="fillline" id="tlFill"></div>
+
+    <div class="titem now reveal">
+      <div class="trow"><h3>Senior BIM Engineer</h3><span class="co">Duncan and Ross</span><span class="yrs">2024 — PRESENT</span></div>
+      <div class="trole">USA &amp; UAE Projects · Team Leadership</div>
+      <ul>
+        <li>Lead Revit modeling, family creation and template updates ensuring BIM standards compliance on USA &amp; UAE projects</li>
+        <li>Run client meetings and coordination — preparing and presenting progress decks to stakeholders</li>
+        <li>Develop custom Dynamo scripts automating repetitive tasks and improving project timelines</li>
+        <li>Lead a project team while managing individual projects — quality deliverables, met deadlines</li>
+        <li>Maintain detailed team activity records and progress tracking in Excel</li>
+      </ul>
+    </div>
+
+    <div class="titem reveal">
+      <div class="trow"><h3>BIM Engineer + Automation Engineer</h3><span class="co">Livio Building</span><span class="yrs">2022 — 2024</span></div>
+      <div class="trole">Lumber &amp; Light-Gauge Steel · Off-site Construction</div>
+      <ul>
+        <li>Modeled lumber and LGS structures across schematic, detailed design and shop-drawing stages</li>
+        <li>Performed clash detection and coordination in Navisworks for clash-free deliverables</li>
+        <li>Visited factories to assess manufacturing constraints — updated models to feasible construction solutions</li>
+        <li>Built automation tools &amp; plugins with Dynamo, Python, Revit API and C#, reducing manual errors</li>
+        <li>Created project-specific Revit templates, Excel tools and custom families standardizing the BIM workflow</li>
+      </ul>
+    </div>
+
+    <div class="titem reveal">
+      <div class="trow"><h3>BIM Engineer</h3><span class="co">Indovance</span><span class="yrs">2021 — 2022</span></div>
+      <div class="trole">End-to-end Project Ownership</div>
+      <ul>
+        <li>Delivered accurate models working simultaneously in Revit and AutoCAD</li>
+        <li>Handled projects end-to-end — modeling, documentation, coordination</li>
+        <li>Led a small team, delegating tasks and ensuring on-time completion</li>
+        <li>Ran QC checks on deliverables; joined client meetings to align outputs with requirements</li>
+        <li>Created Revit families and template setups standardizing project workflows</li>
+      </ul>
+    </div>
+
+    <div class="titem reveal">
+      <div class="trow"><h3>BIM Engineer</h3><span class="co">Matrix Structures</span><span class="yrs">2020 — 2021</span></div>
+      <div class="trole">Industrial &amp; Residential BIM</div>
+      <ul>
+        <li>Developed detailed, coordinated 3D models and families in Revit for Indian projects</li>
+        <li>Performed site visits to collect field data and validate model alignments</li>
+        <li>Supported planning &amp; scheduling with Excel-based task tracking</li>
+        <li>Collaborated with cross-functional teams for efficient delivery</li>
+      </ul>
+    </div>
+
+    <div class="titem reveal">
+      <div class="trow"><h3>Site Engineer</h3><span class="co">Sai Construction</span><span class="yrs">2016 — 2018</span></div>
+      <div class="trole">Where it all started — on site</div>
+      <ul>
+        <li>Supervised construction activities per design, quality and safety standards</li>
+        <li>Coordinated contractors, subcontractors and stakeholders</li>
+        <li>Conducted inspections, maintained daily progress reports</li>
+        <li>Interpreted drawings, guided the team, monitored material usage to control costs</li>
+      </ul>
+    </div>
+
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <div class="shead reveal">
+    <span class="slabel">// toolkit</span>
+    <h2>Software fluency &amp; human skills</h2>
+  </div>
+  <div class="skillcols">
+    <div class="skbox reveal">
+      <h3>🛠 Software &amp; Technical</h3>
+      <div class="chips">
+        <span class="chip">Revit</span><span class="chip">AutoCAD</span><span class="chip">Navisworks</span>
+        <span class="chip">ACC (BIM 360)</span><span class="chip">Dynamo</span><span class="chip">Revit API</span>
+        <span class="chip">Python</span><span class="chip">C#</span><span class="chip">Enscape</span>
+        <span class="chip">Lumion</span><span class="chip">Photoshop</span><span class="chip">MS Office</span>
+        <span class="chip">Family Creation</span><span class="chip">Template Setup</span><span class="chip">Clash Detection</span>
+      </div>
+    </div>
+    <div class="skbox reveal">
+      <h3>🤝 Professional</h3>
+      <div class="chips">
+        <span class="chip">Leadership</span><span class="chip">Management</span><span class="chip">Project Handling</span>
+        <span class="chip">Problem Solving</span><span class="chip">Critical Thinking</span><span class="chip">Adaptability</span>
+        <span class="chip">Continuous Learning</span><span class="chip">Automation &amp; Scripting</span><span class="chip">Client Communication</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="certs" style="padding-top:70px">
+    <div class="shead reveal">
+      <span class="slabel">// credentials</span>
+      <h2>Certifications</h2>
+    </div>
+    <div class="certgrid">
+      <div class="cert reveal"><span class="ci">🎓</span>BIM Future of Construction Industry</div>
+      <div class="cert reveal"><span class="ci">🎓</span>Revit — Essential Training for Structure</div>
+      <div class="cert reveal"><span class="ci">🎓</span>Revit — Essential Training for Architecture (Imperial &amp; Metric)</div>
+      <div class="cert reveal"><span class="ci">🎓</span>Navisworks and BIM 360 Essential Training</div>
+      <div class="cert reveal"><span class="ci">🎓</span>Basics of Dynamo</div>
+    </div>
+    <div class="educard reveal">
+      <div><h3>B.E. Civil Engineering</h3><p>Pune University · 2012 – 2016 · Bridge model maker at MindSpark, CESA committee member</p></div>
+      <span class="yr">CLASS OF 2016</span>
+    </div>
+  </div>
+</div></section>
+
+<section id="beyond" class="alt"><div class="wrap">
+  <div class="shead reveal center" style="text-align:center">
+    <span class="slabel">// beyond the blueprint</span>
+    <h2>The person behind the models</h2>
+  </div>
+  <div class="bgrid">
+    <div class="bcard reveal"><div class="bi">🥾</div><h3>Active Sports</h3><p>Trekking and swimming — endurance, mental clarity and discipline, one summit at a time.</p></div>
+    <div class="bcard reveal"><div class="bi">📷</div><h3>Photography</h3><p>Capturing everyday moments from unique perspectives — telling stories through the lens.</p></div>
+    <div class="bcard reveal"><div class="bi">🧭</div><h3>Traveling</h3><p>Seeking lesser-known destinations, cultures and landscapes — exposure is the best teacher.</p></div>
+  </div>
+  <p class="extra reveal">Also: poster presenter at Innovation events · CESA committee member · active volunteer with social club <b>GADWAT</b>, helping preserve forts &amp; mountains and support people in need.</p>
+</div></section>
+
+<section id="services" class="alt"><div class="wrap">
+  <div class="shead reveal" style="text-align:center">
+    <span class="slabel">// how i can help</span>
+    <h2>Services built around your workflow gaps</h2>
+    <p class="sub" style="margin-inline:auto">Every one of these started as a real problem I solved on live projects — available for freelance &amp; consulting engagements.</p>
+  </div>
+  <div class="svc-grid">
+
+    <div class="pcard reveal">
+      <div class="ic">🏗️</div>
+      <h3>BIM Modeling &amp; Coordination</h3>
+      <p>LOD 200–400 architectural &amp; structural modeling in Revit with full multi-discipline coordination — clash detection and resolution in Navisworks, so nothing reaches site unresolved.</p>
+      <div class="tags"><span class="tagc">Revit</span><span class="tagc">Navisworks</span><span class="tagc">Clash Resolution</span></div>
+    </div>
+
+    <div class="pcard reveal">
+      <div class="ic">🧩</div>
+      <h3>Families &amp; Template Engineering</h3>
+      <p>Parametric Revit families and project templates engineered around your graphic standards — the same library-first approach that made township and tower delivery repeatable.</p>
+      <div class="tags"><span class="tagc">Parametric Families</span><span class="tagc">Templates</span><span class="tagc">Standards</span></div>
+    </div>
+
+    <div class="pcard reveal">
+      <div class="ic">⚙️</div>
+      <h3>Workflow Automation</h3>
+      <p>Dynamo + Python scripts that delete repetitive work — batch sheet setups, schedule audits, QA/QC routines. If your team does it every week, it can be automated.</p>
+      <div class="tags"><span class="tagc">Dynamo</span><span class="tagc">Python</span><span class="tagc">QA/QC</span></div>
+    </div>
+
+    <div class="pcard reveal">
+      <div class="ic">🔌</div>
+      <h3>Custom Plugin Development</h3>
+      <p>Bespoke Revit add-ins in C# / Revit API — purpose-built tools like SMTOOL that live in your ribbon, exactly where your team already works. No new software to learn.</p>
+      <div class="tags"><span class="tagc">Revit API</span><span class="tagc">C#</span><span class="tagc">Ribbon UI</span></div>
+    </div>
+
+    <div class="pcard reveal">
+      <div class="ic">📋</div>
+      <h3>BIM Standards &amp; ACC Setup</h3>
+      <p>BIM execution planning, Autodesk Construction Cloud / BIM 360 project setup, naming conventions and document controls that keep large distributed teams honest.</p>
+      <div class="tags"><span class="tagc">BEP</span><span class="tagc">ACC / BIM 360</span><span class="tagc">ISO Workflows</span></div>
+    </div>
+
+    <div class="pcard reveal">
+      <div class="ic">🏡</div>
+      <h3>Off-Site · LGS &amp; Timber Workflows</h3>
+      <p>Panelization-ready lumber and light-gauge-steel models tuned to real factory lines — modeled to manufacturing constraints first, design intent second.</p>
+      <div class="tags"><span class="tagc">Timber</span><span class="tagc">LGS</span><span class="tagc">Fabrication</span></div>
+    </div>
+
+  </div>
+
+  <div class="svccta reveal">
+    Have an annoying task that deserves to be a tool? <b>Most of my best plugins started exactly there.</b>
+    <a class="btn sm" href="mailto:sanwadmore@gmail.com?subject=Project%20inquiry%20via%20website">✉ Start a conversation</a>
+  </div>
+</div></section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <span class="slabel">// let's talk</span>
+    <h2>Have a project that needs modeling — or a workflow that needs fixing?</h2>
+    <p class="sub">I help teams model faster, coordinate cleaner and automate the boring parts. My inbox is open.</p>
+    <div class="cbtns">
+      <a class="btn inv" href="mailto:sanwadmore@gmail.com">✉ sanwadmore@gmail.com</a>
+      <a class="btn oct" href="tel:+919595737567">📞 +91 95957 37567</a>
+      <a class="btn oct" href="https://in.linkedin.com/in/sanwadmore" target="_blank" rel="noopener">in LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> Sanwad More · Senior BIM Engineer · Pune, India · <a href="Sanwad%20More%20Resume%202026.pdf">Download Resume (PDF)</a></div>
+</footer>
+
+<button id="toTop" aria-label="Back to top">↑</button>
+
+<div id="modal" role="dialog" aria-modal="true" aria-label="Project case study">
+  <div class="mback" id="mback"></div>
+  <div class="mpanel" id="mpanelBox">
+    <button class="mclose" id="mclose" aria-label="Close">✕</button>
+    <div class="mmedia"><div class="phint" id="mphint"></div><img id="mimg" alt="Project screenshot"></div>
+    <div class="mthumbs" id="mthumbs"></div>
+    <div class="mbody">
+      <div class="mheadrow"><span class="mtag" id="mcat"></span><span class="mfirm" id="mfirm"></span></div>
+      <h3 id="mtitle"></h3>
+      <p class="mdesc" id="mdesc"></p>
+      <div class="mstats">
+        <div class="mstat"><div class="k">⏱ Time required</div><div class="v" id="mtime"></div></div>
+        <div class="mstat"><div class="k">📐 Area / scale</div><div class="v" id="marea"></div></div>
+        <div class="mstat"><div class="k">🎯 My scope</div><div class="v" id="mscope"></div></div>
+      </div>
+      <div class="msec"><h4>⚠ Challenges faced &amp; solved</h4><ul class="mch" id="mch"></ul></div>
+      <div class="msec"><h4>🛠 Toolset</h4><div class="mtools" id="mtools"></div></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+var $=function(s){return document.querySelector(s)},$$=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
+var RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* year */
+$("#yr").textContent=new Date().getFullYear();
+
+/* nav scroll state */
+var nav=$("#nav"),toTop=$("#toTop");
+function onScroll(){
+  var y=window.scrollY||document.documentElement.scrollTop;
+  nav.classList.toggle("scrolled",y>10);
+  toTop.classList.toggle("show",y>600);
+}
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+toTop.addEventListener("click",function(){scrollTo({top:0,behavior:"smooth"})});
+
+/* ---------- theme toggle (with circular wipe + keyboard shortcut) ---------- */
+var themeBtn=$("#themeBtn");
+function paintThemeBtn(){
+  var dark=document.documentElement.getAttribute("data-theme")==="dark";
+  themeBtn.textContent=dark?"☀️":"🌙";
+  themeBtn.title=dark?"Switch to light theme (or press T)":"Switch to dark theme (or press T)";
+}
+function setTheme(next){
+  document.documentElement.setAttribute("data-theme",next);
+  try{ localStorage.setItem("sm-theme",next); }catch(e){}
+  paintThemeBtn();
+}
+paintThemeBtn();
+themeBtn.addEventListener("click",function(){
+  var next=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";
+  if(document.startViewTransition && !matchMedia("(prefers-reduced-motion: reduce)").matches){
+    document.startViewTransition(function(){ setTheme(next); });
+  } else { setTheme(next); }
+});
+addEventListener("keydown",function(e){
+  if(/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)) return;
+  if(e.key==="t"||e.key==="T"){ themeBtn.click(); }
+});
+
+/* mobile menu */
+var burger=$("#burger"),mmenu=$("#mmenu");
+burger.addEventListener("click",function(){mmenu.classList.toggle("open")});
+$$("#mmenu a").forEach(function(a){a.addEventListener("click",function(){mmenu.classList.remove("open")})});
+
+/* reveal on scroll */
+if("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} });
+  },{threshold:.12});
+  $$(".reveal").forEach(function(el,i){ el.style.transitionDelay=(i%4)*60+"ms"; io.observe(el); });
+}else{
+  $$(".reveal").forEach(function(el){el.classList.add("in")});
+}
+
+/* headshot auto-detect */
+var HS=["profile.jpg","profile.png","profile.jpeg","profile.webp"],hi=0;
+var hs=document.getElementById("hs");
+function hsNext(){ if(hs){ if(++hi<HS.length){ hs.src=HS[hi]; } else { hs.style.display="none"; } } }
+if(hs){ hs.src=HS[0]; hs.addEventListener("error",hsNext); }
+
+/* portfolio filter */
+var fbtns=$$("#pfilters .fbtn"),pj=$$("#pfgrid .pj");
+if(fbtns.length){
+  fbtns.forEach(function(b){
+    b.addEventListener("click",function(){
+      fbtns.forEach(function(o){o.classList.remove("on")});
+      b.classList.add("on");
+      var f=b.dataset.f;
+      pj.forEach(function(c){ c.classList.toggle("hide", f!=="all" && c.dataset.cat!==f); });
+    });
+  });
+}
+
+/* ---------- case study popups ---------- */
+var PROJECTS=[
+{cat:"Residential",em:"🏘️",firm:"Matrix Structures",period:"2020–21",title:"Residential Township Development",
+ desc:"Coordinated 3D models and a custom Revit family library for a villa-cluster township — my first deep dive into making BIM repeatable instead of redrawn.",
+ time:"≈ 6 months",area:"≈ 4,50,000 sq ft · 120 villas",scope:"Modeling · Families · Docs",
+ ch:["Repetitive villa types were eating hours — built a parametric family library so variants became type-catalog swaps instead of remodels","Three consultants, three grid stories — locked a shared coordination model early and ran weekly alignment checks","Heavy central files slowed the whole team — introduced purge/audit routines and worksharing hygiene that cut sync times sharply"],
+ tools:["Revit","Family Creation","Worksharing","Navisworks"]},
+{cat:"Residential",em:"🏢",firm:"Indovance",period:"2021–22",title:"Residential High-Rise Tower",
+ desc:"End-to-end delivery of a high-rise — from concept model through construction documentation — owned solo from kickoff to final issue.",
+ time:"≈ 8 months",area:"≈ 2,80,000 sq ft · G+22 floors",scope:"Full project ownership",
+ ch:["Design kept evolving mid-delivery — set up a revision-control checklist so every change propagated cleanly to sheets and schedules","Client QA comments repeated every cycle — authored a pre-issue QC checklist that cut review rounds dramatically","Architecture vs structure level mismatches — maintained a shared level/offset standard documented for the whole team"],
+ tools:["Revit","AutoCAD","QA/QC","Sheets & Schedules"]},
+{cat:"Industrial",em:"🏭",firm:"Matrix Structures",period:"2020–21",title:"Industrial Plant & Warehouse Facility",
+ desc:"Large-span industrial facilities modeled and clash-coordinated in Revit + Navisworks, delivered clash-free for construction.",
+ time:"≈ 7 months",area:"≈ 5,00,000 sq ft clear-span",scope:"Modeling · Clash Coordination",
+ ch:["MEP services fighting structural trusses overhead — ran weekly Navisworks clash reports and drove 400+ issues down to near-zero before issue date","Massive grids caused level-management chaos — standardized naming and scope boxes per building zone","Field changes during erection — quick model turnarounds kept site decisions moving without waiting days"],
+ tools:["Revit","Navisworks","Clash Detection"]},
+{cat:"Off-Site · Timber",em:"🏡",firm:"Livio Building",period:"2022–24",title:"Timber Modular Housing — USA",
+ desc:"Lumber modeling across schematic → detailed design → shop drawings for a US off-site housing builder, tuned to factory production lines.",
+ time:"≈ 9 months · multi-phase",area:"≈ 1,10,000 sq ft · 60+ modules",scope:"SD → Shop Drawings",
+ ch:["US lumber standards and mill tolerances were new territory — turned factory-visit feedback into explicit modeling rules","Panel drawings had to match the assembly line station-by-station — split models by module to mirror production flow","Imperial units plus US framing conventions — built imperial-first templates and families to stop constant conversion errors"],
+ tools:["Revit","Lumber Framing","Shop Drawings","Factory Coordination"]},
+{cat:"Off-Site · LGS",em:"🧱",firm:"Livio Building",period:"2022–24",title:"Light-Gauge Steel Prefab Kits",
+ desc:"Panelized LGS building kits modeled to true manufacturing constraints — refined after hands-on factory visits.",
+ time:"≈ 5 months",area:"≈ 85,000 sq ft panelized",scope:"Fabrication Modeling",
+ ch:["Models looked perfect on screen but fought the roll-forming line — translated factory constraints into hard modeling rules for panel splits and fastener zones","Generic cold-formed steel families caused rework — customized framing families with real profile logic","Mid-production design changes — set up a rapid-revision path so updated kits shipped without stopping the line"],
+ tools:["Revit","LGS Framing","Fabrication","C# Tools"]},
+{cat:"Commercial · UAE",em:"🏙️",firm:"Duncan & Ross",period:"2024—",title:"Commercial Office Fit-Out — UAE",
+ desc:"Interior fit-out modeling and family creation to strict UAE client BIM standards, managed end-to-end in ACC / BIM 360.",
+ time:"≈ 4 months",area:"≈ 60,000 sq ft interiors",scope:"Fit-out · BIM Management",
+ ch:["Strict UAE BIM execution plan — aligned naming, LOD and document codes with the client before modeling started","Ceiling voids packed with services — coordinated lighting, HVAC and sprinklers against architectural finishes fully in 3D","Client-specific families were missing — authored a fit-out family kit matching their graphic standards exactly"],
+ tools:["Revit","ACC / BIM 360","Family Creation"]},
+{cat:"Commercial · USA",em:"🌆",firm:"Duncan & Ross",period:"2024—",title:"Mixed-Use Development — USA",
+ desc:"Multi-discipline coordination on a large US mixed-use scheme — leading the team while owning client-facing delivery.",
+ time:"Ongoing · ≈ 14 months",area:"≈ 3,20,000 sq ft mixed-use",scope:"Team Lead · Coordination",
+ ch:["Multiple disciplines needing one source of truth — enforced template governance and shared coordinates from day one","Progress had to be obvious to US stakeholders at a glance — built a PowerPoint/Excel reporting rhythm they now expect everywhere","Parallel projects stretched the team — delegated by workstream with Excel-tracked ownership matrices"],
+ tools:["Revit","Templates","Navisworks","PowerPoint"]},
+{cat:"Tools & Automation",em:"⚙️",firm:"All firms · Personal R&D",period:"2020 — Present",title:"Dynamo Automation Library",
+ desc:"A growing suite of 20+ custom Dynamo scripts automating modeling, documentation and QA/QC routines across every firm I have worked with.",
+ time:"100+ hours · ongoing",area:"20+ scripts in daily use",scope:"Workflow Automation",
+ ch:["Graphs crawled on big models — rebuilt slow nodes with Python and disciplined list-lacing for order-of-magnitude speedups","Revit version upgrades broke graphs overnight — standardized on version-tested packages with fallback paths","Non-coders feared running scripts — wrapped each one in plain-language prompts and failsafe checks so anyone can hit run safely"],
+ tools:["Dynamo","Python","Revit API"]},
+{cat:"Tools & Automation",em:"🔌",firm:"Personal R&D · In production",period:"Shipped",title:"SMTOOL Plugin for Revit",
+ desc:"Custom add-in extracting linked-model Element IDs directly from the host model — killing the Navisworks round-trip entirely.",
+ time:"≈ 6 weeks build",area:"Firm-wide daily driver",scope:"Add-in Development",
+ ch:["Linked-model data is deliberately hard to reach via API — worked through link-document traversal and filtered element collection patterns","Scanning huge models froze the UI — moved to incremental filtered queries with progress feedback","IDs had to stay reliable across link reloads — validated output against manual selection tests before every release"],
+ tools:["Revit API","C#","Visual Studio"]},
+{cat:"Tools & Automation",em:"🖨️",firm:"Open source · Live",period:"Shipped",title:"SSToText — OCR Web Tool",
+ desc:"Paste any screenshot with Ctrl+V and pull clean text out of flattened PDFs and images — free, instant, zero install.",
+ time:"≈ 3 weeks MVP",area:"Live at smtool.github.io/sstotext",scope:"Web App · OCR",
+ ch:["Clipboard image paste behaves differently in every browser — normalized paste and drop handlers into one reliable workflow","Low-res screenshots wrecked accuracy — added preprocessing plus an optional CAPS mode made for drawing annotations","Had to stay serverless and lightweight — pure front-end build so it runs anywhere instantly"],
+ tools:["JavaScript","OCR","UX Design"]}
+];
+
+var modal=$("#modal"),mpanelBox=$("#mpanelBox"),mimg=$("#mimg"),mphint=$("#mphint"),mthumbs=$("#mthumbs"),
+    mcat=$("#mcat"),mfirm=$("#mfirm"),mtitle=$("#mtitle"),mdesc=$("#mdesc"),
+    mtime=$("#mtime"),marea=$("#marea"),mscope=$("#mscope"),mch=$("#mch"),mtools=$("#mtools");
+var curIdx=-1;
+
+function findShot(base){
+  return new Promise(function(res){
+    var exts=["png","jpg","jpeg","webp"],e=0;
+    (function t(){
+      if(e>=exts.length) return res(null);
+      var im=new Image();
+      im.onload=(function(u){return function(){res(u);};})(base+"."+exts[e]);
+      im.onerror=function(){e++;t();};
+      im.src=base+"."+exts[e];
+    })();
+  });
+}
+function loadShots(n){
+  var bases=["p"+n,"p"+n+"-b","p"+n+"-c"];
+  var chain=Promise.resolve(),out=[];
+  bases.forEach(function(b){
+    chain=chain.then(function(){ return findShot(b).then(function(u){ if(u) out.push(u); }); });
+  });
+  return chain.then(function(){ return out; });
+}
+function openCase(i){
+  var P=PROJECTS[i]; if(!P) return;
+  curIdx=i;
+  mimg.removeAttribute("src"); mimg.style.display="none";
+  mthumbs.innerHTML=""; mthumbs.classList.remove("has");
+  mphint.style.display="block";
+  mphint.innerHTML="<b>📷 "+P.em+" "+P.title+"</b>screenshot slot — add <code>p"+(i+1)+".png</code> (or .jpg / -b / -c variants)<br>next to this page and it appears here automatically";
+  mcat.textContent=P.cat;
+  mfirm.textContent=P.firm+" · "+P.period;
+  mtitle.textContent=P.title;
+  mdesc.textContent=P.desc;
+  mtime.textContent=P.time; marea.textContent=P.area; mscope.textContent=P.scope;
+  mch.innerHTML=P.ch.map(function(c){return "<li>"+c+"</li>";}).join("");
+  mtools.innerHTML=P.tools.map(function(t){return '<span class="mtool">'+t+"</span>";}).join("");
+  modal.classList.add("open");
+  document.body.classList.add("locked");
+  mpanelBox.scrollTop=0;
+  var me=i;
+  loadShots(me+1).then(function(urls){
+    if(curIdx!==me||!urls.length) return;
+    mimg.src=urls[0]; mimg.style.display="block"; mphint.style.display="none";
+    if(urls.length>1){
+      mthumbs.classList.add("has");
+      urls.forEach(function(u,k){
+        var b=document.createElement("button");
+        if(k===0)b.className="on";
+        var t=document.createElement("img"); t.src=u; b.appendChild(t);
+        b.addEventListener("click",function(){
+          mimg.src=u;
+          $$("button",mthumbs).forEach(function(x){x.classList.remove("on");});
+          b.classList.add("on");
+        });
+        mthumbs.appendChild(b);
+      });
+    }
+  });
+}
+function closeCase(){ modal.classList.remove("open"); document.body.classList.remove("locked"); curIdx=-1; }
+$("#mclose").addEventListener("click",closeCase);
+$("#mback").addEventListener("click",closeCase);
+addEventListener("keydown",function(e){ if(e.key==="Escape") closeCase(); });
+
+$$("#pfgrid .pj").forEach(function(card,idx){
+  card.setAttribute("tabindex","0");
+  card.insertAdjacentHTML("beforeend",'<div class="viewhint">CLICK FOR CASE STUDY ＋</div>');
+  card.addEventListener("click",function(){ openCase(idx); });
+  card.addEventListener("keydown",function(e){
+    if(e.key==="Enter"||e.key===" "){ e.preventDefault(); openCase(idx); }
+  });
+});
+
+/* ---------- hero typewriter ---------- */
+var PHRASES=["I model it clash-free.","I turn Python into plugins.","I automate the boring parts.","I build tools teams actually use."];
+var typeEl=$("#typeTarget");
+if(typeEl){
+  if(RM){ typeEl.textContent=PHRASES[0]; }
+  else{
+    (function typeLoop(pi){
+      var word=PHRASES[pi%PHRASES.length], ci=0;
+      (function typing(){
+        typeEl.textContent=word.slice(0,++ci);
+        if(ci<word.length) setTimeout(typing,52);
+        else setTimeout(function(){
+          (function erasing(){
+            typeEl.textContent=word.slice(0,--ci);
+            if(ci>0) setTimeout(erasing,24);
+            else setTimeout(function(){ typeLoop(pi+1); },260);
+          })();
+        },1800);
+      })();
+    })(0);
+  }
+}
+
+/* ---------- animated stat counters ---------- */
+var statsBox=$(".stats"),statDone=false;
+if(statsBox){
+  var runCounters=function(){
+    if(statDone) return; statDone=true;
+    $$(".stat .v").forEach(function(el){
+      var m=el.textContent.match(/^(\d+)(.*)$/);
+      if(!m) return;
+      var target=+m[1], suf=m[2];
+      if(RM){ el.textContent=target+suf; return; }
+      var st=performance.now();
+      (function fr(now){
+        var p=Math.min(1,(now-st)/1100), e=1-Math.pow(1-p,3);
+        el.textContent=Math.round(target*e)+suf;
+        if(p<1) requestAnimationFrame(fr);
+      })(st);
+    });
+  };
+  new IntersectionObserver(function(es,obs){
+    es.forEach(function(en){ if(en.isIntersecting){ runCounters(); obs.disconnect(); } });
+  },{threshold:.5}).observe(statsBox);
+}
+
+/* ---------- tools marquee (duplicate half for seamless loop) ---------- */
+var mqTrack=$("#mqTrack");
+if(mqTrack) mqTrack.appendChild(mqTrack.firstElementChild.cloneNode(true));
+
+/* ---------- experience timeline fills as you scroll ---------- */
+var timeline=$(".timeline"),tlFill=$("#tlFill"),titems=$$(".titem");
+function updTimeline(){
+  if(!timeline||!tlFill) return;
+  var r=timeline.getBoundingClientRect();
+  var p=Math.min(1,Math.max(0,(innerHeight*0.62-r.top)/r.height));
+  tlFill.style.height=(p*100)+"%";
+  var px=p*r.height;
+  titems.forEach(function(t){ t.classList.toggle("lit", t.offsetTop+10<=px); });
+}
+addEventListener("scroll",updTimeline,{passive:true});
+addEventListener("resize",updTimeline);
+updTimeline();
+
+/* ---------- button ripple ---------- */
+if(!RM){
+  addEventListener("click",function(e){
+    var b=e.target.closest(".btn");
+    if(!b) return;
+    var r=b.getBoundingClientRect(), d=Math.max(r.width,r.height);
+    var s=document.createElement("span");
+    s.className="ripple";
+    s.style.cssText="width:"+d+"px;height:"+d+"px;left:"+(e.clientX-r.left-d/2)+"px;top:"+(e.clientY-r.top-d/2)+"px";
+    b.appendChild(s);
+    setTimeout(function(){ s.remove(); },650);
+  });
+}
+
+/* ---------- cursor aura ---------- */
+if(matchMedia("(pointer:fine)").matches && !RM){
+  var aura=document.createElement("div");
+  aura.id="aura";
+  document.body.appendChild(aura);
+  var auraOn=false;
+  addEventListener("mousemove",function(e){
+    aura.style.transform="translate("+e.clientX+"px,"+e.clientY+"px)";
+    if(!auraOn){ auraOn=true; aura.classList.add("on"); }
+  },{passive:true});
+  document.documentElement.addEventListener("mouseleave",function(){
+    aura.classList.remove("on"); auraOn=false;
+  });
+}
+
+/* ---------- hero parallax (layered depths) ---------- */
+var heroSec=$(".hero");
+var pxEls=[[$("#bpTower"),0.12],[ $("#bpCrane"),0.20],[ $("#bpNodes"),0.08]];
+function updParallax(){
+  if(RM||!heroSec) return;
+  var y=window.scrollY||document.documentElement.scrollTop||0;
+  if(y>heroSec.offsetHeight) return;
+  for(var i=0;i<pxEls.length;i++){
+    if(pxEls[i][0]) pxEls[i][0].style.transform="translateY("+Math.round(y*pxEls[i][1])+"px)";
+  }
+}
+addEventListener("scroll",updParallax,{passive:true});
+updParallax();
+
+/* active nav link */
+var secs=["about","projects","experience","skills","certs","services","contact"].map(function(id){return document.getElementById(id)}).filter(Boolean);
+if("IntersectionObserver" in window){
+  var nio=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        $$("#nlinks a").forEach(function(a){a.classList.toggle("active",a.getAttribute("href")==="#"+e.target.id)});
+      }
+    });
+  },{rootMargin:"-40% 0px -55% 0px"});
+  secs.forEach(function(s){nio.observe(s)});
+}
+})();
+</script>
+</body>
+</html>
